@@ -1,0 +1,126 @@
+body{
+    margin: O;
+    padding: 0;
+    background-color: beige;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+#score{
+    display: block;
+    margin:0% 0% 0% 70%;
+    padding-inline-start: 2%;
+    font-size:10px;
+    color: red;
+   
+ 
+}
+#total{
+    display:none;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0 0 0;
+    font-size: 20px;
+    color:black;
+
+}
+.answer-bouttons button{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 20px 20px;
+    background-color: rgb(213, 207, 207);
+    color :rgb(0, 0, 0);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    
+}
+.answer-bouttons button:hover{
+    background-color: rgb(117, 117, 117);
+}
+#next{
+    width: 20%;
+     background-color: blue;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 12px;
+    border:none;
+    cursor: pointer;
+    display: none;
+    
+}
+#next:hover{
+    transform: scale(90%);
+}
+#leave button{
+    display: block;
+    justify-content: end;
+    align-items: end;
+    margin-left: 400px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+#leave button:hover{
+    transform: scale(75%);
+}
+.image img{
+  width: 100px;
+  height: 40px;
+  margin-top: -20px;
+  display: grid;
+  margin-left: 420px;
+  border-top-right-radius:10px ;
+   border-bottom-left-radius:5px ;
+  
+}
+@media (max-width:575px) {
+    .container{
+        width: 250px;
+        height: auto;
+        margin: 3px auto;
+        padding: 3px 10px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px black;
+    
+    }
+    .next{
+        width: 30%;
+        font-size: 12px;
+        height: auto;
+
+    }
+    #leave button{
+    display: block;
+    justify-content: end;
+    align-items: end;
+    margin-left: 180px;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+.image img{
+  width: 100px;
+  height: 40px;
+  margin-top: -4px;
+  display: grid;
+  margin-left: 160px;
+  border-top-right-radius:10px ;
+   border-bottom-left-radius:5px ;
+  
+}
+    
+}

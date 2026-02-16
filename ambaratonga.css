@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+.mpiomana{
+    background-color: bisque;
+    width:400px;
+    height: 400px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-right: 10px solid black;
+    border-radius: 20px;
+    transition: 0.5s ease all;
+}
+.mpiomana:hover{
+    transform: translate(10%);
+    border-right: white;
+}
+.mpiomana h3{
+    text-align: center;
+    color:red;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.mpiomana p{
+    text-align: center;
+    margin-top: -10px;
+}
+.mpiomana img{
+    width:130px;
+    height:130px;
+    display: flex;
+    margin-left: 250px;
+}
+.fanamarihana{
+    background-color: rgb(255, 234, 207);
+    width:200px;
+    height: 130px;
+margin-left: 1px;
+margin-top: -140px;
+font-size: 12px;
+padding-top: auto;
+border-right: 5px solid black;
+}
+@media (max-width:575px){
+    .mpiomana{
+    background-color: bisque;
+    width:400px;
+    height: 300px;
+    display: block;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    border-right: 9px solid black;
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: 0.5s ease all;
+}
+.fanamarihana{
+    background-color: rgb(255, 207, 144);
+    width:200px;
+    height: 130px;
+margin-left: 10px;
+margin-top: -134px;
+font-size: 12px;
+padding-top: auto;
+border-right: 5px solid black;
+text-align: center;
+padding: auto;
+}
+.mpiomana img{
+    width:130px;
+    height:130px;
+    display: flex;
+    margin-left: 250px;
+}
+}
+.mpiatrika{
+    
+    background-color: bisque;
+    width:400px;
+    height: 400px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-left: 10px solid black;
+    border-radius: 20px;
+    transition: 0.5s ease all;
+}
+.mpiatrika:hover{
+    transform: translate(10%);
+    border-left: white;
+}
+.mpiatrika h3{
+    text-align: center;
+    color:red;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.mpiatrika p{
+    text-align: center;
+    margin-top: -10px;
+}
+.mpiatrika img{
+    width:130px;
+    height:130px;
+    display: flex;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+.marika{
+    background-color: rgb(255, 234, 207);
+    width:200px;
+    height: 130px;
+margin-left: 19px;
+margin-top: -140px;
+font-size: 12px;
+padding-top: auto;
+border-right: 5px solid black;
+}
+@media (max-width:575px){
+      .mpiatrika{
+    background-color: bisque;
+    width:400px;
+    height: 300px;
+    display: block;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    border-left: 9px solid black;
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: 0.5s ease all;
+}
+.marika{
+    background-color: rgb(255, 207, 144);
+    width:200px;
+    height: 139px;
+margin-left: 10px;
+margin-top: -140px;
+font-size: 12px;
+padding-top: auto;
+border-right: 5px solid black;
+text-align: center;
+padding: auto;
+}
+.mpiatrika img{
+    width:130px;
+    height:130px;
+    display: flex;
+    margin-left: 230px;
+    
+}
+}.mpihary{
+    
+    background-color: bisque;
+    width:400px;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-right: 10px solid black;
+    border-radius: 20px;
+    transition: 0.5s ease all;
+}
+.mpihary:hover{
+    transform: translate(10%);
+    border-right: white;
+}
+.mpihary h3{
+    text-align: center;
+    color:red;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.mpihary p{
+    text-align: center;
+    margin-top: -10px;
+}
+.mpihary img{
+    width:120px;
+    height:120px;
+    display: flex;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.mahampiary {
+    background-color: rgb(255, 234, 207);
+    width:200px;
+    height: 115px;
+margin-left: 19px;
+margin-top: -120px;
+font-size: 12px;
+padding-top: auto;
+border-right: 5px solid black;
+}
+@media (max-width:575px){
+         .mpihary{
+    background-color: bisque;
+    width:400px;
+    height: 409px;
+    display: block;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    border-right: 9px solid black;
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: 0.5s ease all;
+}
+.mpihary img{
+    width:150px;
+    height:150px;
+    display: flex;
+    margin-left: 230px;
+    
+}
+.mahampiary{
+    background-color: rgb(255, 207, 144);
+    width:200px;
+    height: 139px;
+margin-left: 10px;
+margin-top: -140px;
+font-size: 12px;
+padding-top: auto;
+border-right: 5px solid black;
+text-align: center;
+padding: auto;
+}
+}
+a button{
+    margin-top: 10px;
+    width:150px;
+    display: inline;
+    background-color: beige;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+
+
+}
+a button:hover{
+    transform: scale(80%);
+}

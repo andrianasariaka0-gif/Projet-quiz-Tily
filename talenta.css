@@ -1,0 +1,425 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.mpiatrika{
+    background-color:transparent;
+    width: 600px;
+    height: 600px;
+    padding: auto;
+    border-radius: 20px;
+    display: inline;
+
+    
+
+}
+h3{
+    display: flex;
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.vonjy{
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.vonjy img{
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+}
+.teknolojia{
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.teknolojia img{
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+}
+.fambolena{
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 20px;
+}
+.fambolena img{
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+}
+.taozavatra{
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.taozavatra img{
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+}
+.mpanakanto{
+    background-color: bisque;
+    width: 250px;
+    height: 270px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.mpanakanto img{
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+}
+.mpanentana{
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.mpanentana img{
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+}
+.sport{
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.sport img{
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+}
+.mpihary{
+background-color: transparent;
+    padding: auto;
+    border-radius: 20px;
+    display: inline;
+}
+.fahasalamana{
+    background-color: rgb(255, 167, 167);
+    width: 250px;
+    height: 270px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.fahasalamana img{
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    
+}
+.tontolo{
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.tontolo img{
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+}
+.manoratra{
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.manoratra img{
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+}
+.civisme{
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.civisme img{
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+}
+.diorano{
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.diorano img{
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+}
+@media (max-width:575px){
+    .mpiatrika{
+        display: block;
+        
+
+    }
+    .mpiatrika h3{
+        
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        margin-left: 140px;
+        font-size: 25px;
+    }
+    .vonjy{
+    background-color: rgba(255, 0, 0, 0.696);
+    width:220px;
+    height: 200px;
+    color: white;
+}
+.vonjy img{
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+    width:90px;
+    height: 70px;
+
+}
+    .teknolojia{
+    background-color:rgba(107, 107, 203, 0.737);
+    width:220px;
+    height: 200px;
+    margin-left: 230px;
+    margin-top: -215px;
+    color: white;
+    
+}
+.teknolojia img{
+    border-radius: 50%;
+    width:90px;
+    height: 70px;
+
+}
+  .fambolena{
+    background-color: rgba(13, 207, 88, 0.744);
+    width:220px;
+    height: 230px;
+  
+    
+}
+.fambolena img{
+    border-radius: 50%;
+    width:90px;
+    height: 70px;
+
+}
+  .taozavatra{
+    background-color: rgba(255, 203, 139, 0.683);
+    width:220px;
+    height: 230px;
+    margin-left: 230px;
+    margin-top: -245px;
+    
+}
+.taozavatra img{
+    border-radius: 50%;
+    width:90px;
+    height: 70px;
+
+}
+  .mpanakanto{
+    background-color: rgba(241, 173, 255, 0.66);
+    width:220px;
+    height: 240px;
+ 
+    
+}
+.mpanakanto img{
+    border-radius: 50%;
+    width:90px;
+    height: 70px;
+
+}
+
+  .mpanentana{
+    background-color: rgba(225, 217, 239, 0.532);
+    width:220px;
+    height: 240px;
+    margin-left: 230px;
+    margin-top: -255px;
+    
+}
+  .sport{
+    background-color: rgba(233, 255, 197, 0.646);
+    width:220px;
+    height: 230px;
+
+    
+}
+.sport img{
+    border-radius: 50%;
+    width:90px;
+    height: 70px;
+
+}
+.mpanentana img{
+    border-radius: 50%;
+    width:90px;
+    height: 70px;
+
+}
+   .mpihary{
+        display: block;
+        margin-top: 500px;
+        
+
+    }
+    .mpihary h3{
+        
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        margin-left: 140px;
+        font-size: 25px;
+    }
+      .fahasalamana{
+    background-color: rgba(255, 0, 0, 0.84);
+    width:220px;
+    height: 250px;
+    color:white;
+ 
+  
+    
+}
+.fahasalamana img{
+    border-radius: 50%;
+    width:90px;
+    height: 70px;
+
+}
+  .tontolo{
+    background-color: rgba(0, 255, 98, 0.733);
+    width:220px;
+    height: 250px;
+    margin-left: 230px;
+    margin-top: -265px;
+    
+    
+    
+}
+.tontolo img{
+    border-radius: 50%;
+    width:90px;
+    height: 70px;
+
+}
+  .manoratra{
+    background-color: rgba(218, 143, 255, 0.747);
+    width:220px;
+    height: 250px;
+ 
+    
+}
+.manoratra img{
+    border-radius: 50%;
+    width:90px;
+    height: 70px;
+
+}
+  .civisme{
+    background-color: rgba(49, 135, 255, 0.744);
+    width:220px;
+    height: 250px;
+    margin-left: 230px;
+    margin-top: -267px;
+    
+}
+.civisme img{
+    border-radius: 50%;
+    width:90px;
+    height: 70px;
+
+}
+  .diorano{
+    background-color: rgba(194, 237, 255, 0.676);
+    width:220px;
+    height: 250px;
+  
+    
+}
+.teknolojia img{
+    border-radius: 50%;
+    width:90px;
+    height: 70px;
+
+}
+    
+}
+button{
+    width: 200px;
+    border-radius: 10px;
+    border:1px solid red;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.2s ease all;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(90%);
+}

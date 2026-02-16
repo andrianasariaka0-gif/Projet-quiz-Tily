@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+
+
+}
+
+img {
+    width: 500px;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 500px;
+
+
+}
+
+#valiny {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 550px;
+    margin-top: 20px;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
+#valiny2 {
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 550px;
+    margin-top: 20px;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
+
+
+#image img {
+    width: 500px;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 500px;
+
+}
+
+.image2 img {
+    width: 500px;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 500px;
+    display: none;
+}
+
+/* .image3 img {
+    display: none;
+} */
+
+.btn {
+    margin-top: 20px;
+    margin-left: 450px;
+    width: 100px;
+    height: 50Px;
+    border-radius: 10px;
+    background-color: bisque;
+    border: none;
+    cursor: pointer;
+    transition: 0.8s ease all;
+    display: block;
+    margin-left: 860px;
+    margin-top: -50px;
+
+}
+
+.btn:hover {
+    transform: scale(85%);
+}
+
+.btn2 {
+    margin-top: 20px;
+    margin-left: 450px;
+    width: 100px;
+    height: 50Px;
+    border-radius: 10px;
+    background-color: bisque;
+    border: none;
+    cursor: pointer;
+    transition: 0.8s ease all;
+    display: block;
+    display: none;
+    margin-left: 860px;
+    margin-top: -50px;
+
+}
+
+.btn2:hover {
+    transform: scale(85%);
+}
+.button {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50Px;
+    border-radius: 10px;
+    background-color: bisque;
+    border: none;
+    padding-top: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 500px;
+    transition: 0.5 ease all;
+
+}
+.button:hover {
+    transform: scale(85%);
+}
+
+@media (max-width:575px) {
+    img {
+        width: 500px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-left: 25px;
+
+    }
+
+    /* .image3 img {
+        width: 500px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-left: 20px;
+    } */
+
+    #image img {
+        width: 500px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-left: 25px;
+
+    }
+
+    .image2 img {
+        width: 500px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-left: 25px;
+        display: none;
+    }
+
+    .button {
+        margin-top: 15px;
+        margin-left: 40px;
+        width: 100px;
+        height: 50Px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #valiny{
+
+        margin-left: 50Px;
+    }
+       #valiny2{
+        margin-left: 50Px;
+    }
+
+    .btn {
+        margin-top: -54px;
+        margin-left: 360Px;
+    }
+ .btn2 {
+        margin-top: -54px;
+        margin-left: 360Px;
+    }
+   
+}
